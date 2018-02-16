@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Wikipedia Viewer</title>
+  </head>
+  <body>
+
+    <div id="background-text"></div>
+
+      <p id="wikiTitle" class="opacityFilter">Wikipedia viewer</p>
+
+      <div id="main-container" class="container">
+        <form id="wikiForm" class="form-inline">
+          <input id="textInput" class="form-control-lg opacityFilter" type="text" name="" value="" placeholder="Search.."/>
+          <button id="searchButton" class="btn btn-outline-primary btn-lg" name="button">GO</button>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            <button id="randomButton" class="btn btn-outline-primary btn-lg opacityFilter" type="button" name="button">RANDOM</button>
+          </a>
+        </form>
+      </div>
+
+      <div id="results">
+        <div id="row1" class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+        </div>
+        <div id="row2" class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+
+    <p id="credit">Go on, type something.<br>Design by Travis Turner</p>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+  </body>
+</html>

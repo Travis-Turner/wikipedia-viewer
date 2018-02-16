@@ -1,0 +1,128 @@
+/* BASIC STYLES */
+body {
+  font-family: 'Mukta Malar', sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  background-color: #551D7C;
+  z-index: 1;
+}
+#wikiTitle {
+  font-size: 6em;
+  color: #ED7D3A;
+  margin-left: 24px;
+}
+/* INPUT STYLES */
+form>input {
+  background-color: #ED7D3A;
+  border-style: none;
+}
+.form-control-lg {
+  font-size: 56px;
+  width: 50%;
+}
+input::-webkit-input-placeholder {
+  color:    #551D7C;
+}
+input:-moz-placeholder {
+  color:    #551D7C;
+  opacity:  1;
+}
+input::-moz-placeholder {
+  color:    #551D7C;
+  opacity:  1;
+}
+input:-ms-input-placeholder {
+  color:    #551D7C;
+}
+input::-ms-input-placeholder {
+  color:    #551D7C;
+}
+/* BUTTON STYLES */
+.btn-outline-primary {
+  border-color: #ED7D3A;
+  color: #ED7D3A;
+}
+.btn-outline-primary:hover {
+  border-color: #EF2D56;
+  background-color: #EF2D56;
+}
+form>button {
+  margin-left: 20px;
+}
+.btn-lg {
+  font-size: 56px;
+}
+#randomButton {
+  margin-left: 20px;
+}
+/* STYLES RELATED TO BACKGROUND TEXT */
+#background-text {
+  z-index: -1;
+  color: #EDCCB8;
+  font-size: 5em;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.changeOpacity {
+  opacity: 0.2;
+}
+/* RESULTS STYLES */
+.resultTitle {
+  color: #ED7D3A;
+  font-size: 0.7em;
+}
+#results {
+  width: 80%;
+  margin: 40px auto;
+}
+.resultText {
+  color: #EDCCB8;
+}
+.btn-result {
+  font-size: 0.6em;
+  display: block;
+}
+.row h4 {
+  margin-top: 30px;
+}
+.row p {
+  margin-top: 15px;
+}
+#noResults {
+  color: #EDCCB8;
+  font-size: 4em;
+  text-align: center;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+/* MISC STYLES */
+#credit {
+  color: #ED7D3A;
+  margin-left: 24px;
+}
+/* MEDIA SELECTORS */
+@media screen and (max-width: 1000px) {
+  .btn-lg {
+    font-size: 36px;
+  }
+  .form-control-lg {
+    font-size: 30px;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 453px) {
+  .btn-lg {
+    font-size: 20px;
+  }
+
+}
